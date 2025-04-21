@@ -25,7 +25,7 @@ class MessageBarCanvas(FigureCanvas):
         self.ax.bar(senders, counts)
         self.ax.set_title("메시지 수")
         # self.ax.set_xlabel("발신자")
-        self.ax.set_ylabel("메시지 수")
+        # self.ax.set_ylabel("메시지 수")
         self.ax.tick_params(axis='x', rotation=45)
         self.fig.tight_layout()
         self.draw()
